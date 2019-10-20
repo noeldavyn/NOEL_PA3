@@ -19,34 +19,26 @@ public class Main {
                 int phraseChoice = randomNumbers.nextInt(4);  // Used for Switch case in phrase selection for correct/incorrect
                 if (num3 == num1 * num2)
                     switch (phraseChoice) {
-                        case 1:
-                            System.out.println("Very Good!");
+                        case 1: System.out.println("Very Good!");
                             break;
-                        case 2:
-                            System.out.println("Excellent!");
+                        case 2: System.out.println("Excellent!");
                             break;
-                        case 3:
-                            System.out.println("Nice work!");
+                        case 3: System.out.println("Nice work!");
                             break;
-                        case 4:
-                            System.out.println("Keep trying!");
+                        case 4: System.out.println("Keep trying!");
                             break;
-                    }
+                }
                 else
                     switch (phraseChoice) {
-                        case 1:
-                            System.out.println("No. Please try again.");
+                        case 1: System.out.println("No. Please try again.");
                             break;
-                        case 2:
-                            System.out.println("Wrong. Try once more.");
+                        case 2: System.out.println("Wrong. Try once more.");
                             break;
-                        case 3:
-                            System.out.println("Don't give up!");
+                        case 3: System.out.println("Don't give up!");
                             break;
-                        case 4:
-                            System.out.println("No. Keep trying!");
+                        case 4: System.out.println("No. Keep trying!");
                             break;
-                    }
+                }
             }
             x++;
 
